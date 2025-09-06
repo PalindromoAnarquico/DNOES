@@ -1,0 +1,45 @@
+/* Estrutura de estilização para o arquivo INDEX.HTML */
+
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Estilos para o cabeçalho e navegação */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+;
+
+.links{
+    color: rgb(138, 84, 84);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    
+}
+.links:hover {
+    text-overflow: clip;
+    font-weight: bold;
+    text-rendering: calc(30em + 20px);
+
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: x-large;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+ 
+}
+
+
+
