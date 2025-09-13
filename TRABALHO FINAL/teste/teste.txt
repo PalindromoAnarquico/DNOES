@@ -1,0 +1,45 @@
+
+    <div class="contaGeral">
+  <div class="carousel-track">
+    <div class="carousel-slide">
+      <img src="licensed-image.jpg" alt="Imagem 1">
+      <div class="caption"><a href="https://ge.globo.com/futebol/times/flamengo/noticia/2025/09/13/filipe-luis-recusa-proposta-do-fenerbahce-por-continuidade-do-projeto-no-flamengo.ghtml">Filipe Luís recusa Fenerbahçe e Flamengo segue sendo sua principal escolha</a></div>
+    </div>
+
+
+
+    <div class="carousel-slide">
+      <img src="coritiba.avif" alt="Imagem 2">
+      <div class="caption"><a href="https://ge.globo.com/pr/futebol/times/coritiba/noticia/2025/09/13/coritiba-e-goias-termina-com-briga-entre-os-jogadores-e-seis-expulsoes-assista-ao-video.ghtml">PANCADARIA! Partida entre Coritiba e Goiás não terminou bem na noite do dia 9</a></div>
+    </div>
+
+
+
+    <div class="carousel-slide">
+      <img src="john.webp" alt="Imagem 3">
+      <div class="caption"><a href="https://ge.globo.com/futebol/times/botafogo/noticia/2025/09/13/venham-nos-pegar-e-tudo-certo-em-abril-veja-frases-e-promessas-de-textor-no-2025-do-botafogo.ghtml">DEU A LOUCA NO TEXTOR!</a></div>
+    </div>
+
+
+
+    <div class="carousel-slide">
+      <img src="yamal.avif" alt="Imagem 4">
+      <div class="caption"><a href="https://ge.globo.com/futebol/futebol-internacional/noticia/2025/09/13/yamal-desfalca-o-barcelona-e-tecnico-reclama-ele-jogou-pela-selecao-com-dores.ghtml">Um pequeno "Adeus"
+      </a></div>
+    </div>
+
+
+
+    <div class="carousel-slide">
+      <img src="img5.jpg" alt="Imagem 5">
+      <div class="caption"><a href="https://espn.com.br">Clássico termina em empate emocionante</a></div>
+    </div>
+
+
+    
+    <div class="carousel-slide">
+      <img src="img6.jpg" alt="Imagem 6">
+      <div class="caption"><a href="https://economist.com">Criptomoedas voltam a subir</a></div>
+    </div>
+  </div>
+</div>

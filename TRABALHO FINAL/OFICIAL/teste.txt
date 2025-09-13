@@ -1,0 +1,106 @@
+  <header>
+        <h1> DUARTE NOTÍCIAS ESPORTIVAS</h1>
+
+        <section id="home">
+        <h2>Bem-vindo</h2>
+        <p>Seu portal de notícias esportivas atualizado diariamente.</p>
+    </section>
+
+
+    </header>
+    <div class="links">
+
+         <nav>
+            <ul>
+                <a href="noticias.html">Todas as Notícias</a>
+            </ul>
+        </nav>
+
+
+    </div>
+    
+
+    
+
+    <section id="noticias">
+        <h2>Últimas Notícias</h2>
+        <article>
+            <h3>Notícia 1</h3>
+            <p>Detalhes sobre a notícia 1...</p>
+        </article>
+        <article>
+            <h3>Notícia 2</h3>
+            <p>Detalhes sobre a notícia 2...</p>
+        </article>
+
+
+
+            <!-- Letreiro deslizante separando o header do conteúdo -->
+    <div id="Bola">
+        <div id="letreiro-bola">
+            <!-- Adicione suas imagens de bola de futebol aqui -->
+            <img src="bola.png" id="bola1" style="height:24px; position:absolute;">
+            <img src="bola.png" id="bola2" style="height:24px; position:absolute;">
+            <img src="bola.png" id="bola3" style="height:24px; position:absolute;">
+            <img src="bola.png" id="bola4" style="height:24px; position:absolute;">
+            <img src="bola.png" id="bola5" style="height:24px; position:absolute;">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<div class="letreiro">
+        <img src="bola.png" alt="Letreiro Deslizante" class="letreiro-img">
+        <img src="bola.png" alt="Letreiro Deslizante" class="letreiro-img">
+        <img src="bola.png" alt="Letreiro Deslizante" class="letreiro-img">
+        <img src="bola.png" alt="Letreiro Deslizante" class="letreiro-img">
+        <img src="bola.png" alt="Letreiro Deslizante" class="letreiro-img">
+    </div>
+    <script>
+        const letreiro = document.querySelector('.letreiro');
+        letreiro.style.overflow = 'hidden';
+        letreiro.style.position = 'relative';
+        letreiro.style.height = '80px';
+        letreiro.s
+
+        const imgs = document.querySelectorAll('.letreiro-img');
+        imgs.forEach(img => {
+            img.style.position = 'absolute';
+            img.style.top = '0';
+            img.style.height = '80px';
+            img.style.whiteSpace = 'nowrap';
+        });
+
+        function deslizar() {
+            const larguraTotal = Array.from(imgs).reduce((acc, img) => acc + img.width, 2);
+            let pos = -larguraTotal;
+            function frame() {
+                pos += 2;
+                let offset = pos;
+                imgs.forEach(img => {
+                    img.style.left = offset + 'px';
+                    offset += img.width;
+                });
+                if (pos < letreiro.offsetWidth) {
+                    requestAnimationFrame(frame);
+                } else {
+                    pos = -larguraTotal;
+                    requestAnimationFrame(frame);
+                }
+            }
+            frame();
+        }
+        // Espera todas as imagens carregarem
+        let loaded = 0;
+        imgs.forEach(img => {
+            img.onload = () => {
+                loaded++;
+                if (loaded === imgs.length) deslizar();
+            };
+        });
+    </script>

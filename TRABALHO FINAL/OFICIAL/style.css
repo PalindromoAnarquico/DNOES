@@ -1,0 +1,141 @@
+/* estilizaçao dedicada ao index */
+
+body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    background-color: hsl(300, 71%, 96%);
+    background-image: url('gramado.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+.principal{
+    background-color: #00000000;
+   
+    color: rgb(214, 235, 211);
+    padding: 200px 0;
+    text-align: center;
+    font: "Montserrat" ;
+}
+
+.título{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #443d3d
+}
+
+.conteudo{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    font: bold;
+}
+
+.c1{
+    width: 1500px;
+    background-color: #cbe2c1f1;
+    border-radius: 30px;
+    position: absolute;
+    left: calc(50% - 750px);
+    right: calc(50% - 750px);
+    color: rgb(29, 29, 29);
+ 
+}
+
+
+    nav ul li a {
+        text-decoration: none;
+        background: #18830a;
+        color: #ffffff;
+        padding: 14px 50px;
+        border-radius: 16px;
+        display: inline-block;
+        transition: background 0.2s;
+        -webkit-transition: background 0.2s;
+        -moz-transition: background 0.2s;
+        -ms-transition: background 0.2s;
+        -o-transition: background 0.2s;
+        position: absolute;
+        bottom: 200px;
+        left: calc(49% - 100px);
+        font-size: 23px;
+        font-weight: bold;
+}
+
+    nav ul li a:hover {
+        background: #2e1c4b;
+    }
+
+
+h2{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    background-color: #131212;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 0px);
+}
+
+}
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+/* estilizaçao dedicada ao notícias */
+
+
+.contGeral{
+    height: 800px;
+    width: 1500px;
+    background-color: #817f7f;
+    position: absolute;
+    display: flex;
+    left: calc(50% - 750px);
+    justify-content: center;
+    text-align: center;
+    font: "Montserrat" ;
+
+    .containerTitulo{
+        height: 100px;
+        width: 730px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+       background-color: #000000;
+       color: white;
+    }
+}
+
+/* carrossel de imagens */
